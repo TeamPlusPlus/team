@@ -1,0 +1,66 @@
+/*
+ * Responsive design for the Team PlusPlus website
+ * @file     responsive.scss
+ * @author   Lukas Bestle <http://lu-x.me>
+ * @created  29.03.2013 22:13
+ * @updated  31.03.2013 17:24
+ */
+
+// Footer content slides into each other
+@media screen and (max-width: 1000px) {
+	section.main {
+		padding-bottom: 125px;
+	}
+	
+	footer div {
+		position: static;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+}
+
+// Navigation is too narrow
+// Floated images are corrupting text
+@media screen and (max-width: 600px) {
+	nav {
+		position: static !important;
+		
+		.logo {
+			display: none;
+		}
+		
+		li {
+			display: block !important;
+			
+			margin: 0 !important;
+			
+			.active {
+				color: $brand-color;
+				
+				&:before, &:after {
+					display: none;
+				}
+			}
+			
+			a {
+				text-align: center !important;
+			}
+		}
+	}
+	
+	.imgblock img {
+		float: none !important;
+		
+		display: block !important;
+		margin: auto !important;
+		
+		width: 100% !important;
+		height: auto;
+		
+		margin-bottom: 10px !important;
+	}
+	
+	.infos li {
+		display: block !important;
+	}
+}

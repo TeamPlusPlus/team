@@ -104,7 +104,7 @@ your homepage for example. Just change it here in that case.
 
 */
 
-c::set('home', 'home');
+c::set('home', 'projects');
 
 
 /*
@@ -410,10 +410,10 @@ to set the default locale settings for all PHP functions
 */
 
 c::set('lang.support', false);
-c::set('lang.default', 'en');
-c::set('lang.available', array('en', 'de'));
+c::set('lang.default', 'de');
+c::set('lang.available', array('de'));
 c::set('lang.detect', true);
-c::set('lang.locale', false);
+c::set('lang.locale', 'de_DE');
 
 
 /* 

@@ -1,10 +1,7 @@
-<?php snippet('header') ?>
+<?php if(!r::is_ajax()) snippet('header') ?>
 <?php snippet('menu') ?>
-<?php snippet('submenu') ?>
 
-<article>
-  <h1><?php echo html($page->title()) ?></h1>
-  <?php echo kirbytext($page->text()) ?>
-</article>
+				<?php if(!$page->showtitle() or $page->showtitle() != 'No'): ?><h2><?php echo $page->title(); ?></h2><?php endif; ?>
+				<?php echo kirbytext($page->text()); ?>
 
-<?php snippet('footer') ?>
+<?php if(!r::is_ajax()) snippet('footer') ?>

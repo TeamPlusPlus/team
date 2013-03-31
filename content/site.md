@@ -1,9 +1,5 @@
-Title: Kirby
+Title: Team PlusPlus
 ----
-Author: Bastian Allgeier
+Description: Bla bla
 ----
-Description: Kirby is awesome
-----
-Keywords: kirby, cms, kirbycms, php, filesystem
-----
-Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier)
+Copyright: © (date: Year) Team PlusPlus &bull; Design by [Lukas Bestle](http://lu-x.me)
