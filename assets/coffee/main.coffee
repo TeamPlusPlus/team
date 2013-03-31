@@ -29,6 +29,10 @@ $(document).ready(()->
 	
 	# Load new content
 	load = (url)->
+		# Don't load the same page again
+		if(url == window.location.href)
+			return;
+		
 		# Disable current page
 		$('.main').css('opacity', 0);
 		$('.active').removeClass('active');
