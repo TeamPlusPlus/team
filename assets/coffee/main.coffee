@@ -79,7 +79,7 @@ $(document).ready(()->
 	);
 	
 	# User clicks a link
-	$('header a, .links a').click(()->
+	$('a[href^="' + location.protocol + '//' + location.hostname + '"]').click(()->
 		load($(this).attr('href'));
 		
 		# Don't reload
