@@ -8,7 +8,6 @@ Web: https://lu-x.me
 ----
 Text:
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+Web-Entwickler und Designer unter anderem dieser Website spezialisiert auf OO-PHP, Node.js (wie auch clientseitiges JS), mag aber auch Sprachen wie C++ (ausgenommen Typ-Konvertierungen). Macht viel und gerne OSS, nutzt aber umso weniger davon.
+Schüler im schönen (gar nicht wahr) Reutlingen am nördlichen Rand der schwäbischen Alb. Mac OS X-Nutzer und dennoch kein Fanboy.
+Spielt gerne mit Technik rum und probiert alles aus - because I can.

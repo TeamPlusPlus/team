@@ -8,7 +8,4 @@ Web: http://sebastian-aigner.net
 ----
 Text: 
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+Frisch-lebendiger Hobby-Programmierer sowie Gymnasiast aus dem schönen München, der sich auf PHP und Java(Script) spezialisiert hat und immer für Technik-Experimente zu haben ist.

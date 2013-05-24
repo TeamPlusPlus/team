@@ -8,7 +8,5 @@ Web: http://gehaxelt.in
 ----
 Text:
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+Bekannt unter seinem Nickname "gehaxelt", entstanden aus einem Wortspiel aus den Wörtern "Hacken" und "Hackfleisch" bzw. "Gehacktem".
+Sehr interessiert für Sicherheit in der IT - besonders Websecurity, nimmt gerne an Bug Bounty Programmen teil und ist bereits in einigen Hall of Fames gelistet. Nebenher Betreiber einiger Technikblogs. Ihm macht es Spaß, sein Wissen mit anderen Menschen zu teilen und das Bloggen hilft beim Verständnis mancher Themen ungemein.
