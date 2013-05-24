@@ -1,7 +1,7 @@
 # Pin the navigation to the top
 $(document).ready(()->
-	# Get the offset of the navigation on the page
-	offsetTop = $("nav").offset().top;
+	# Set the offset of the navigation on the page
+	offsetTop = 238;
 	
 	# Function to check the current position
 	navFix = ()->

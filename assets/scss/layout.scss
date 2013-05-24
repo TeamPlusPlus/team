@@ -3,7 +3,7 @@
  * @file     layout.scss
  * @author   Lukas Bestle <http://lu-x.me>
  * @created  28.03.2013 22:09
- * @updated  30.03.2013 18:20
+ * @updated  24.05.2013 21:00
  */
 
 // Force footer to stay at the bottom
@@ -17,7 +17,7 @@ header {
 	margin-bottom: 10px;
 	
 	.center {
-		max-width: 600px;
+		max-width: 450px;
 		margin: auto;
 	}
 	
@@ -29,7 +29,6 @@ header {
 		
 		img {
 			width: 100%;
-			height: 150px;
 			
 			padding-top: 40px;
 		}
@@ -59,9 +58,12 @@ header {
 		
 		.logo {
 			position: absolute;
-			right: 35px;
+			top: 9px;
+			right: 25px;
 			
-			height: 100%;
+			img {
+				height: 30px;
+			}
 		}
 		
 		ul {
