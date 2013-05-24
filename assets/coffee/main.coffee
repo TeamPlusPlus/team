@@ -27,6 +27,12 @@ $(document).ready(()->
 	initialUrl = document.location.href;
 	firstPopState = true;
 	
+	loadFromLink = ()->
+		load($(this).attr('href'));
+		
+		# Don't reload
+		return false;
+	
 	# Load new content
 	load = (url)->
 		# Don't load the same page again
@@ -64,6 +70,9 @@ $(document).ready(()->
 				# Set the content
 				$('.main').html(html);
 				$('.main').css('opacity', 1);
+				
+				# Update link handlers
+				$('a[href^="' + location.protocol + '//' + location.hostname + '"]').unbind('click').click(loadFromLink);
 			, 300);
 		);
 	
@@ -79,10 +88,5 @@ $(document).ready(()->
 	);
 	
 	# User clicks a link
-	$('a[href^="' + location.protocol + '//' + location.hostname + '"]').click(()->
-		load($(this).attr('href'));
-		
-		# Don't reload
-		return false;
-	);
+	$('a[href^="' + location.protocol + '//' + location.hostname + '"]').click(loadFromLink);
 );
