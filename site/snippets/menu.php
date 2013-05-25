@@ -1,4 +1,4 @@
-<?php if(!r::is_ajax()): ?>
+<?php if(!r::is('ajax')): ?>
 				<div class="nav">
 					<nav>
 						<a href="<?php echo url('/'); ?>" class="logo"><img src="/assets/images/logo_mono.png" alt="<?php echo $site->title(); ?>"></a>

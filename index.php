@@ -8,30 +8,40 @@
  * @package Kirby CMS
  */
 
-// get the current dir
-$dir = dirname(__FILE__);
+// get the current directory
+$root = dirname(__FILE__);
 
 // root file 
-$rootfile = $dir . DIRECTORY_SEPARATOR . 'roots.php';
+$rootfile = $root . DIRECTORY_SEPARATOR . 'roots.php';
 
 // check for a custom roots file
 if(file_exists($rootfile)) {
   // load the custom roots file
-  $roots = include($rootfile);
+  include($rootfile);
 } else {
-  // fallback roots if the roots file does not exist
-  $roots = array(
-    'root'         => $dir,
-    'root.kirby'   => $dir . 'kirby',
-    'root.site'    => $dir . DIRECTORY_SEPARATOR . 'site',
-    'root.content' => $dir . DIRECTORY_SEPARATOR . 'content'
-  );
+
+  // system-independent shortcut for /
+  define('DS', DIRECTORY_SEPARATOR);
+
+  // location of the index.php / public document root
+  define('KIRBY_INDEX_ROOT', $root);
+
+  // location of the kirby system
+  define('KIRBY_CMS_ROOT', KIRBY_INDEX_ROOT . DS . 'kirby');
+
+  // location of all site specific files / site folder
+  define('KIRBY_PROJECT_ROOT', KIRBY_INDEX_ROOT . DS . 'site');
+
+  // location of the content folder
+  define('KIRBY_CONTENT_ROOT', KIRBY_INDEX_ROOT . DS . 'content');
+
 }
 
-// try to find the kirby system file
-if(!file_exists($roots['root.kirby'] . DIRECTORY_SEPARATOR . 'system.php')) {
-  die('The Kirby system could not be loaded');  
-} 
+// system starter file 
+$system = KIRBY_CMS_ROOT . DS . 'system.php';
+
+// check if the system file exists
+if(!file_exists($system)) die('The Kirby system could not be loaded');  
 
 // load the system
-include($roots['root.kirby'] . DIRECTORY_SEPARATOR . 'system.php');
+include($system);
