@@ -14,3 +14,7 @@
 
 - [jQuery](http://jquery.com)
 - [Prefix free](http://leaverou.github.com/prefixfree/) by [Lea Verou](http://lea.verou.me)
+
+## Logo
+
+[Mato](http://pixelspezi.de)
