@@ -263,7 +263,7 @@ templates which shouldn't be cached.
 
 */
 
-c::set('cache', true);
+c::set('cache', false);
 c::set('cache.autoupdate', false);
 c::set('cache.html', true);
 c::set('cache.ignore.urls', array());
