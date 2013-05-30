@@ -8,9 +8,9 @@
 
 // Retina backgrounds
 @mixin bgimage($image) {
-  background-image: url('/assets/images/' + $image + '.png');
+  background-image: url('http://stuff.plusplus.serpens.uberspace.de/Images/General/Textures/' + $image + '.png');
   background-image: -webkit-image-set(
-    url('/assets/images/' + $image + '.png') 1x,
-    url('/assets/images/' + $image + '_@2x.png') 2x
+    url('http://stuff.plusplus.serpens.uberspace.de/Images/General/Textures/' + $image + '.png') 1x,
+    url('http://stuff.plusplus.serpens.uberspace.de/Images/General/Textures/' + $image + '_@2x.png') 2x
   );
 }

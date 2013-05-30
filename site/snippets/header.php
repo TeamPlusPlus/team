@@ -23,5 +23,5 @@
 		<div class="wrapper">
 			<header>
 				<div class="center">
-					<h1><a href="<?php echo url('/'); ?>"><img src="<?php echo url('assets/images/logo.png'); ?>" alt="<?php echo $site->title(); ?>"></a></h1>
+					<h1><a href="<?php echo url('/'); ?>"><img src="http://stuff.plusplus.serpens.uberspace.de/Images/Team/logo.png" alt="<?php echo $site->title(); ?>"></a></h1>
 				</div>
