@@ -16,8 +16,11 @@
 		<?php echo js('assets/js/prefixfree.vendor.js#1.0.7'); ?>
 		<?php echo js('assets/js/main.js'); ?>
 		
-		<link rel="shortcut icon" href="<?php echo url('assets/images/favicon.png'); ?>">
-		<link rel="apple-touch-icon" href="<?php echo url('assets/images/favicon.png'); ?>">
+		<link rel="shortcut icon" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/favicon.ico">
+		<link rel="apple-touch-icon" sizes="144x144" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/apple-touch-icon.png" />
 	</head>
 	<body>
 		<div class="wrapper">
