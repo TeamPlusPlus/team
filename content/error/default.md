@@ -4,10 +4,14 @@ ShowTitle: No
 ----
 Text:
 
-## Fehler 410: Der Sendemast antwortet nicht.
+## Fehler 410: The transmission tower is not responding
 
 Oder eher:
 
 ## Fehler 418: I'm a teapot
 
-Hm, sorry, hier ist nichts.
+Im Ernst jetzt:
+
+## Fehler 404: Not Found
+
+Sorry, hier ist nichts. Da sind sich alle einig.
