@@ -15,6 +15,7 @@
 // Background image
 header, header nav, footer {
 	@include bgimage("light_wool");
+	background-attachment: fixed;
 }
 
 // Links
