@@ -1,6 +1,6 @@
 # Team PlusPlus
 
-This is the repository for the [Team PlusPlus website](plusplus.serpens.uberspace.de).
+This is the repository for the [Team++ website](plusplus.serpens.uberspace.de).
 The site is powered by [Kirby](http://getkirby.com), please have a look at the original README below.
 
 ----
