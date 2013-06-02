@@ -13,3 +13,4 @@ ein wo er kann benutzt aber aus pragmatischen Gründen auch proprietäre
 Programme, Schüler, Web-Entwickler (hauptsächlich PHP und JavaScript),
 betreibt [einen kleinen Blog zu Technik- und Open-Source-Themen](http://blog.l3r.de), Hobby-Twitterer, Homebase in München im tiefsten Bayern, immer offen für
 interessante Ideen.
+Kümmert sich im Team um den Content und die Shownotes.
