@@ -8,7 +8,7 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		
-		<meta name="description" content="<?php echo $site->description(); ?>" />
+		<meta name="description" content="<?php echo $site->description(); ?>">
 		<link rel="index" title="<?php echo $site->title(); ?>" href="<?php echo url('/'); ?>">
 		
 		<?php echo css('assets/css/main.css'); ?>
@@ -17,10 +17,10 @@
 		<?php echo js('assets/js/main.js'); ?>
 		
 		<link rel="shortcut icon" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/favicon.ico">
-		<link rel="apple-touch-icon" sizes="144x144" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/apple-touch-icon-144x144.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/apple-touch-icon-114x114.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/apple-touch-icon-72x72.png" />
-		<link rel="apple-touch-icon" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/apple-touch-icon.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" href="http://stuff.plusplus.serpens.uberspace.de/Images/Team/apple-touch-icon.png">
 	</head>
 	<body>
 		<div class="wrapper">
