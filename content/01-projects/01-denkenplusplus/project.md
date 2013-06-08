@@ -1,6 +1,6 @@
 Title: Denken++
 ----
-Link: http://denken.pluspl.us
+Link: http://denken.plusp.lu
 ----
 Team: Sebastian, Lukas, Konrad, Gehaxelt
 ----

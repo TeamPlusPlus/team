@@ -2,7 +2,7 @@ Title: Lukas
 ----
 Twitter: vis7mac
 ----
-Mail: lukas@pluspl.us
+Mail: lukas@plusp.lu
 ----
 Web: https://lu-x.me
 ----

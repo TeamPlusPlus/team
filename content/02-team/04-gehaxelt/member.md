@@ -2,7 +2,7 @@ Title: Gehaxelt
 ----
 Twitter: gehaxelt
 ----
-Mail: gehaxelt@pluspl.us
+Mail: gehaxelt@plusp.lu
 ----
 Web: http://gehaxelt.in
 ----

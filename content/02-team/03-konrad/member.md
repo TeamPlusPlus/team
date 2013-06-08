@@ -2,7 +2,7 @@ Title: Konrad
 ----
 Twitter: lx4r
 ----
-Mail: konrad@pluspl.us
+Mail: konrad@plusp.lu
 ----
 Web: https://l3r.de
 ----

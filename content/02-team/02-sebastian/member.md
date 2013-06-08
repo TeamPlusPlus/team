@@ -2,7 +2,7 @@ Title: Sebastian
 ----
 Twitter: TrueSebi
 ----
-Mail: sebastian@pluspl.us
+Mail: sebastian@plusp.lu
 ----
 Web: http://sebastian-aigner.net
 ----
