@@ -8,6 +8,6 @@
 					<li><a href="<?php echo url('imprint'); ?>">Impressum</a></li>
 				</ul>
 			</footer>
-		</section>
+		</div>
 	</body>
 </html>
