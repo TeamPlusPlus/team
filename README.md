@@ -1,6 +1,6 @@
-# Team PlusPlus
+# Team++
 
-This is the repository for the [Team++ website](plusp.lu).
+This is the repository for the [Team++ website](http://plusp.lu).
 The site is powered by [Kirby](http://getkirby.com), please have a look at the original README below.
 
 ----
