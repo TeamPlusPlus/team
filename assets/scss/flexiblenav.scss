@@ -1,0 +1,30 @@
+/*
+ * Flexible (fixed or static) navigation
+ * @file     layout.scss
+ * @author   Lukas Bestle <http://lu-x.me>
+ */
+
+// Can become position: fixed when scrolling down
+header nav {
+	top: 0;
+	left: 0;
+	right: 0;
+	
+	&.fixed {
+		position: fixed;
+	}
+}
+
+// Autohide icon in top bar
+nav {
+	.logo {
+		opacity: 0;
+		transition: opacity 0.3s ease-in-out;
+	}
+
+	&.fixed {
+		.logo {
+			opacity: 1;
+		}
+	}
+}

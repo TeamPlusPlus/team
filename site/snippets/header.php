@@ -12,8 +12,8 @@
 		<link rel="index" title="<?php echo $site->title(); ?>" href="<?php echo url('/'); ?>">
 		
 		<?php echo css('assets/css/main.css'); ?>
-		<?php echo js('assets/js/jquery.vendor.js#1.9.1'); ?>
-		<?php echo js('assets/js/prefixfree.vendor.js#1.0.7'); ?>
+		<?php echo js('assets/base/js/jquery.vendor.js#1.9.1'); ?>
+		<?php echo js('assets/base/js/prefixfree/prefixfree.min.js#1.0.7'); ?>
 		<?php echo js('assets/js/main.js'); ?>
 		
 		<link rel="shortcut icon" href="http://stuff.plusp.lu/Images/Team/favicon.ico">

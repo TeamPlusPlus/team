@@ -1,3 +1,6 @@
 [submodule "kirby"]
 	path = kirby
 	url = https://github.com/getkirby/cms
+[submodule "assets/base"]
+	path = assets/base
+	url = https://github.com/TeamPlusPlus/baseassets
