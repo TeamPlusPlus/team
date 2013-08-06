@@ -26,5 +26,5 @@
 		<div class="wrapper">
 			<header>
 				<div class="center">
-					<h1><a href="<?php echo url('/'); ?>"><img src="http://stuff.plusp.lu/Images/Team/logo.png" alt="<?php echo $site->title(); ?>"></a></h1>
+					<h1><a href="<?php echo url('/'); ?>"><img src="http://stuff.plusp.lu/Images/Team/logo_notext.png" alt="<?php echo $site->title(); ?>"></a></h1>
 				</div>
