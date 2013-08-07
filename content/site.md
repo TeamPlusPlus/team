@@ -1,4 +1,4 @@
-Title: Team PlusPlus
+Title: Team++
 ----
 Description: Das Team hinter dem Denken++ Podcast.
 ----
